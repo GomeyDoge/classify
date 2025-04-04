@@ -13,5 +13,4 @@
 - 💬 Type-safe default field values (`string`, `number`, `boolean`, `table`, etc.)
 - 🧪 Built-in output preview via `print`
 - 🔄 Supports method chaining for fluent usage
-- 🔍 Optional field support (e.g., `---@field name? string`)
 - 📦 Easy to extend for advanced use cases like inheritance
