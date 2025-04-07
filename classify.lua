@@ -149,6 +149,7 @@ function ClassCreator:build()
 end
 
 ---@param classname string
+---@return ClassCreator
 function Classify( classname )
     assert( classname, "No class name has been passed to the Classify function!" )
     return setmetatable( {
