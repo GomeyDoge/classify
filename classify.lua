@@ -10,7 +10,7 @@
 -- Copyright (c) 2025 @realdotty
 -- Licensed under the MIT License. See LICENSE file for details.
 
-CLASSIFY_VERSION = "0.0.1" -- In the future we may need to check the version
+CLASSIFY_VERSION = "1.0.0" -- In the future we may need to check the version
 
 local DEFAULT_MAP = {
     ["string"] = "\"<UNKNOWN>\"",
@@ -157,6 +157,6 @@ function Classify( classname )
         className = classname,
         classFields = {},
         classMethods = {},
-        _VERSION = "0.0.1" -- semver
+        _VERSION = CLASSIFY_VERSION -- semver
     }, ClassCreator )
 end
