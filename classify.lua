@@ -4,7 +4,7 @@
     A utility for generating annotated, 
     object-based class definitions.
 
-    Version: 0.0.1
+    Version: 1.0.0
 ]]--
 
 -- Copyright (c) 2025 @realdotty
